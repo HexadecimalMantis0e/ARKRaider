@@ -8,7 +8,7 @@
 #include "Util.hpp"
 
 void usage() {
-    std::cout << "ARKRaider: Extract Vivendi Universal ARK files" << std::endl;
+    std::cout << "ARKRaider: Extract Genuine Games ARK files" << std::endl;
     std::cout << "Usage: ARKRaider path/to/ARK" << std::endl;
 }
 

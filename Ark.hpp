@@ -33,7 +33,7 @@ class Ark {
     public:
         bool readArk(std::ifstream &fs);
         std::uint32_t getFileCount() const;
-        const std::vector<uint8_t> &getFile(int index) const;
+        const std::vector<std::uint8_t> &getFile(int index) const;
         const FileEntry &getFileEntry(int index) const;
 };
 

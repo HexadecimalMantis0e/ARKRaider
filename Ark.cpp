@@ -54,7 +54,7 @@ std::uint32_t Ark::getFileCount() const {
     return fileCount;
 }
 
-const std::vector<uint8_t> &Ark::getFile(int index) const {
+const std::vector<std::uint8_t> &Ark::getFile(int index) const {
     return files.at(index);
 }
 
